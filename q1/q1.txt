@@ -1,0 +1,15 @@
+git commit -m "A"
+git branch develop
+git commit -m "C"
+git checkout develop
+git commit -m "B"
+git checkout master 
+git merge develop
+git checkout develop
+git commit -m "E"
+git checkout master
+git merge develop
+git checkout develop
+
+
+merge시 vi창에서 commit message 변경
